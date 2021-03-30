@@ -11,9 +11,6 @@ public:
 	TextEditor m_Text;
 	bool m_bOpen;
 	IMaterial *m_pMat;
-	bool m_bPlayers = false;
-	bool m_bArms = false;
-	bool m_bWeapon = false;
 };
 
 class CEditor
@@ -30,9 +27,9 @@ private:
 	std::vector<CMaterial> m_vecMaterials;
 
 private:
-	bool m_bPlayers = false;
-	bool m_bArms = false;
-	bool m_bWeapon = false;
+	bool m_bPlayers = true;
+	bool m_bArms = true;
+	bool m_bWeapon = true;
 
 public:
 	inline bool IsOpen() { return m_bOpen; };
