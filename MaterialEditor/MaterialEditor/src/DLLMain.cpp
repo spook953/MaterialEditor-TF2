@@ -7,8 +7,10 @@ DWORD WINAPI MainThread(LPVOID lpParam)
 	g_pModelRender		= reinterpret_cast<IVModelRender *>(g_Interface.Get(L"engine.dll", "VEngineModel016"));
 	g_pSurface			= reinterpret_cast<ISurface *>(g_Interface.Get(L"vguimatsurface.dll", "VGUI_Surface030"));
 	g_pInputSystem		= reinterpret_cast<IInputSystem *>(g_Interface.Get(L"inputsystem.dll", "InputSystemVersion001"));
+	g_pModelInfo		= reinterpret_cast<IVModelInfo *>(g_Interface.Get(L"engine.dll", "VModelInfoClient006"));
+	g_pClientEntityList = reinterpret_cast<IClientEntityList *>(g_Interface.Get(L"client.dll", "VClientEntityList003"));
 	g_dwDirectXDevice	= **reinterpret_cast<DWORD **>(g_Pattern.Find(L"shaderapidx9.dll", L"A1 ? ? ? ? 50 8B 08 FF 51 0C") + 0x1);
-	
+
 	g_Hooks.Init();
 
 	while (!g_Editor.IsUnloading())

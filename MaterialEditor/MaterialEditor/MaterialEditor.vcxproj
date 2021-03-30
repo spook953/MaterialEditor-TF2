@@ -188,11 +188,14 @@
     <ClInclude Include="src\Hooks\Reset\Reset.h" />
     <ClInclude Include="src\Hooks\WndProc\WndProc.h" />
     <ClInclude Include="src\SDK\AppSystem\AppSystem.h" />
+    <ClInclude Include="src\SDK\ClientEntityList\ClientEntityList.h" />
     <ClInclude Include="src\SDK\DirectX\DirectX.h" />
+    <ClInclude Include="src\SDK\Includes\Includes.h" />
     <ClInclude Include="src\SDK\InputSystem\InputSystem.h" />
     <ClInclude Include="src\SDK\KeyValues\KeyValues.h" />
     <ClInclude Include="src\SDK\MaterialSystem\MaterialSystem.h" />
     <ClInclude Include="src\SDK\Material\Material.h" />
+    <ClInclude Include="src\SDK\ModelInfo\ModelInfo.h" />
     <ClInclude Include="src\SDK\ModelRender\ModelRender.h" />
     <ClInclude Include="src\SDK\SDK.h" />
     <ClInclude Include="src\SDK\Surface\Surface.h" />

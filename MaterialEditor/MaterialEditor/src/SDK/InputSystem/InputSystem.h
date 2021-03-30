@@ -1,10 +1,6 @@
 #pragma once
 #include "../AppSystem/AppSystem.h"
 
-struct ButtonCode_t;
-struct AnalogCode_t;
-struct InputEvent_t;
-
 class IInputSystem : public IAppSystem
 {
 public:

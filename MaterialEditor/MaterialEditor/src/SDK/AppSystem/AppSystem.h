@@ -1,14 +1,5 @@
 #pragma once
-
-typedef void *(*CreateInterfaceFn)(const char *pName, int *pReturnCode);
-typedef void *(*InstantiateInterfaceFn)();
-
-enum InitReturnVal_t
-{
-	INIT_FAILED = 0,
-	INIT_OK,
-	INIT_LAST_VAL,
-};
+#include "../Includes/Includes.h"
 
 class IAppSystem
 {

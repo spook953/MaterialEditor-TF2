@@ -73,5 +73,8 @@
     <ClInclude Include="src\Hooks\LockCursor\LockCursor.h" />
     <ClInclude Include="src\Editor\TextEditor\TextEditor.h" />
     <ClInclude Include="src\SDK\InputSystem\InputSystem.h" />
+    <ClInclude Include="src\SDK\ModelInfo\ModelInfo.h" />
+    <ClInclude Include="src\SDK\Includes\Includes.h" />
+    <ClInclude Include="src\SDK\ClientEntityList\ClientEntityList.h" />
   </ItemGroup>
 </Project>
