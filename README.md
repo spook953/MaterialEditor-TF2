@@ -14,4 +14,4 @@ other info:\
 materials are only applied to players (or whatever entity happens to be in the index range of > 0 && < 32)\
 https://developer.valvesoftware.com/wiki/Category:List_of_Shader_Parameters
 
-![image](https://i.imgur.com/zK234xP.png)
+![image](https://i.imgur.com/DSQk9IJ.png)
