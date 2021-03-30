@@ -1,4 +1,4 @@
-# MaterialEditor-TF2
+# MaterialEditor for Team Fortress 2
 DO NOT CONNECT TO VAC SECURE SERVERS WHEN USING THIS! use -insecure to be safe
 
 credits:\
