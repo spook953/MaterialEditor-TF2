@@ -4,7 +4,7 @@ DO NOT CONNECT TO VAC SECURE SERVERS WHEN USING THIS! use -insecure to be safe
 credits:\
 https://github.com/TsudaKageyu/minhook (MinHook)\
 https://github.com/ocornut/imgui (ImGui)\
-https://github.com/BalazsJako/ImGuiColorTextEdit (Text Editor for ImGui)\
+https://github.com/BalazsJako/ImGuiColorTextEdit (Text Editor for ImGui)
 
 how to use:\
 inject the compiled .dll into hl2.exe\
